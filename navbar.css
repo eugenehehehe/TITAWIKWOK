@@ -1,0 +1,16 @@
+.navbar {
+    width: 100%;
+    align-items: flex-end;
+  }
+  
+  .navbar ul {
+    padding-left: 40%; 
+    align-items: center;
+  
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin-right: 20px;
+    color: #565b65;
+  } 

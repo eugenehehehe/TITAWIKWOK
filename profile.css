@@ -1,0 +1,76 @@
+  .user-account-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .user-account-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    margin-bottom: 50px;
+  }
+  
+  .user-account-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+  }
+  
+  .user-account-header button {
+    width: 100px;
+    height: 40px;
+    background-color: #50a34a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .user-account-header button:hover {
+    background-color: #e53935;
+  }
+  
+  .user-account-body form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+  }
+  
+  .user-account-body form label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+  }
+  
+  .user-account-body form input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-top: 5px;
+  }
+  
+  .user-account-body form button {
+    width: 100%;
+    height: 40px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .user-account-body form button:hover {
+    background-color: #45a049;
+  }
